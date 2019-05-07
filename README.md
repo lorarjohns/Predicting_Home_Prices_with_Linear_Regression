@@ -18,11 +18,11 @@ Excerpts:
 df = pd.read_csv('kc_house_data.csv')
 df.head()
 ```
-![excerpt](https://github.com/lorarjohns/dsc-v2-mod1-final-project/master/excerpt.png)
+![excerpt](https://github.com/lorarjohns/dsc-v2-mod1-final-project/blob/master/excerpt.png)
 
 Checking for collinearity:
 
-![heatmap](https://github.com/lorarjohns/dsc-v2-mod1-final-project/master/heatmap.png)
+![heatmap](https://github.com/lorarjohns/dsc-v2-mod1-final-project/blob/master/heatmap.png)
 
 Creating dummy variables:
 
@@ -63,7 +63,7 @@ scale_std = StandardScaler(copy=False)
 + Linear regression with additional factors and scaling: R-squared ~ 0.7
 + RMSE still very high
 
-![regression](https://github.com/lorarjohns/dsc-v2-mod1-final-project/master/regression.png)
+![regression](https://github.com/lorarjohns/dsc-v2-mod1-final-project/blob/master/regression.png)
 
 ## Takeaways
 
