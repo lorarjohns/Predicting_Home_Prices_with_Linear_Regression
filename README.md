@@ -24,6 +24,10 @@ Checking for collinearity:
 
 ![heatmap](https://github.com/lorarjohns/dsc-v2-mod1-final-project/blob/master/heatmap.png)
 
+Scatter plot:
+
+![scatter](https://github.com/lorarjohns/dsc-v2-mod1-final-project/blob/master/scatter.png)
+
 Creating dummy variables:
 
 ```python
@@ -60,8 +64,8 @@ scale_std = StandardScaler(copy=False)
 ## Results
 
 + Linear regression with two variables: R-squared ~ 0.5
-+ Linear regression with additional factors and scaling: R-squared ~ 0.7
-+ RMSE still very high
++ Linear regression with additional factors and scaling: R-squared ~ 0.79
++ RMSE 0.27
 
 ![regression](https://github.com/lorarjohns/dsc-v2-mod1-final-project/blob/master/regression.png)
 
